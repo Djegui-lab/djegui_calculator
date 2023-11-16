@@ -39,6 +39,7 @@ def calculer_mois_assurance(date_permis, date_infraction, date_recuperation, moi
 
 # Titre de l'application
 st.title("Calculateur de mois d'assurance")
+st.subheader("AUTEUR : DJÉGUI-WAGUÉ")
 
 # Champ de saisie pour la date du permis avec le format jour-mois-année
 date_permis = st.date_input("Date du permis", format="DD-MM-YYYY")
